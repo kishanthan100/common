@@ -1,0 +1,18 @@
+name: "my_dbt_project" # The name of your project
+version: "1.0" # The version of your project
+config-version: 2 # The configuration version for DBT
+
+profile: "my_dbt_profile"
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_modules"
+
+models:
+  my_dbt_project:
+    +materialized: table
+    dimensions:
+      +materialized: view
+    facts:
+      +materialized: table
