@@ -1,0 +1,18 @@
+my_project:
+  outputs:
+    dev:
+      type: duckdb
+      path: /opt/airflow/duckdb/erp.duckdb
+      threads: 1
+      database: erp
+      schema : bronze
+
+   
+
+
+    
+  target: dev
+
+
+
+

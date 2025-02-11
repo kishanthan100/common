@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: erp_raw
+    schema: main
+      # This is the schema where raw data is stored
+    tables:
+      - name: sales_order
+        description: "Raw sales orders ingested from ERP JSON"
+      - name: customer_details
+        description: "Raw customer_details ingested from ERP JSON"
+      - name: payment_details
+        description: "Raw payment_details ingested from ERP JSON"
+      

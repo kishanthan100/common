@@ -1,4 +1,4 @@
-import os
+import os, requests
 import json
 from datetime import datetime, timedelta
 from airflow.operators.bash import BashOperator
@@ -8,10 +8,10 @@ import sys
 import os
 
 # Add the root directory to sys.path
+
 sys.path.insert(0, os.path.abspath(os.path.dirname(__file__) + "/.."))
-
-from scripts.ingestdata import fetch_erp_api  # Now it should work!
-
+from scripts.ingestdata import fetch_salesorder , fetch_paymententry, fetch_customerdetails # Now it should work!
+from scripts.storerowdata import load_salesorder_to_duckdb, load_payment_to_duckdb, load_customer_to_duckdb
 
 
 #from scripts.ingestdata import fetch_erp_api
@@ -40,11 +40,54 @@ with DAG(
 ) as dag:
 
 
-    fetch_erp_task = PythonOperator(
-        task_id='fetch_erp_task',
-        python_callable=fetch_erp_api,
+    # fetch_sales_order = PythonOperator(
+    #     task_id='fetch_sales_order',
+    #     python_callable=fetch_salesorder,
+       
+    # )
+
+    # fetch_payment_entry = PythonOperator(
+    #     task_id='fetch_payment_entry',
+    #     python_callable=fetch_paymententry,  
+       
+    # )
+
+    # fetch_customer_details = PythonOperator(
+    #     task_id='fetch_customer_details',
+    #     python_callable=fetch_customerdetails, 
+       
+    # )
+
+    store_salesorderinto_duckdb = PythonOperator(
+        task_id='store_salesorderinto_duckdb',
+        python_callable=load_salesorder_to_duckdb,  
        
     )
+
+    store_paymententryinto_duckdb = PythonOperator(
+        task_id='store_paymententryinto_duckdb',
+        python_callable=load_payment_to_duckdb ,  
+       
+    )
+
+    store_customerinto_duckdb = PythonOperator(
+        task_id='store_customerinto_duckdb',
+        python_callable=load_customer_to_duckdb ,  
+       
+    )
+
+#     dbt_test = BashOperator(
+#     task_id='test_dbt',
+#     bash_command="""
+#         cd /opt/airflow/etldbt && \
+#         echo "1" | dbt init my_project --profiles-dir /opt/airflow/etldbt
+#         """, # Change the path if necessary
+    
+# )
+
+    
+
+
     # save_sales_task = PythonOperator(
     #     task_id='savesales_data_to_duckdb',
     #     python_callable=savesales_data_to_duckdb,
@@ -52,14 +95,17 @@ with DAG(
     # )
 
 
-    # run_dbt_task = BashOperator(
-    #     task_id='run_dbt_transform',
-    #     bash_command="""
-    #     cd /opt/airflow/dags/dbt_models && \
-    #     dbt run --profiles-dir /opt/airflow/dbt/profiles.yml --target dev
-    #     """,
-    # )
+    run_dbt_transform = BashOperator(
+        task_id='run_dbt_transform',
+        bash_command="""
+        cd /opt/airflow/etldbt/my_project && \
+        dbt build --profiles-dir /opt/airflow/etldbt/my_project --target dev
+        """,
+    )
 
-    fetch_erp_task 
+    #fetch_sales_order >> fetch_payment_entry >> fetch_customer_details >> 
+    store_salesorderinto_duckdb >> store_paymententryinto_duckdb >> store_customerinto_duckdb >> run_dbt_transform
+   
     
+
 

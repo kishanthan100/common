@@ -82,8 +82,9 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
     - ${AIRFLOW_PROJ_DIR:-.}/scripts:/opt/airflow/scripts
-    - ${AIRFLOW_PROJ_DIR:-.}/jason_data:/opt/airflow/jason_data
+    - ${AIRFLOW_PROJ_DIR:-.}/jsondata:/opt/airflow/jsondata
     - ${AIRFLOW_PROJ_DIR:-.}/duckdb:/opt/airflow/duckdb
+    - ${AIRFLOW_PROJ_DIR:-.}/etldbt:/opt/airflow/etldbt
     
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:

@@ -2,9 +2,6 @@ import requests
 import os
 
 import pandas as pd
-ERP_HOST = os.getenv("ERP_HOST")
-ERP_USER = os.getenv("ERP_USER")
-ERP_PASS = os.getenv("ERP_PASS")
 
 class Connect:
     _self = None
@@ -12,13 +9,13 @@ class Connect:
     
 
     def __init__(self):
-        # self.ERP_HOST = "demoerp.enkinext.com"
-        # self.ERP_USER = "Administrator"
-        # self.ERP_PASS = "Test#1212$"
+        self.ERP_HOST = "demoerp.enkinext.com"
+        self.ERP_USER = "Administrator"
+        self.ERP_PASS = "Test#1212$"
         self.auth_session = None
 
-        self.host = f'https://{os.getenv("ERP_HOST")}/api'     
-        #self.host = f'https://{self.ERP_HOST}/api'
+        #self.host = f'https://{os.getenv("ERP_HOST")}/api'     
+        self.host = f'https://{self.ERP_HOST}/api'
         self.login()
         
 
@@ -29,8 +26,8 @@ class Connect:
         # Authenticating user
         response = auth_session.post(
             f"{self.host}/method/login",
-            data={"usr": os.getenv("ERP_USER"), "pwd": os.getenv("ERP_PASS")},   
-            #data={"usr": {self.ERP_USER}, "pwd": {self.ERP_PASS}},
+            #data={"usr": os.getenv("ERP_USER"), "pwd": os.getenv("ERP_PASS")},   
+            data={"usr": {self.ERP_USER}, "pwd": {self.ERP_PASS}},
         )
         print("response is ",response)
 

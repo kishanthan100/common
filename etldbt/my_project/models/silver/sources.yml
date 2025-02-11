@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: erp_raw
+    database: erp
+    schema: bronze
+      # This is the schema where raw data is stored
+    tables:
+      - name: stg_sales_order
+        description: "Raw sales orders ingested from ERP JSON"
+
+      - name: stg_payment_entry
+        description: "Raw stg_payment_entry ingested from ERP JSON"
+      
