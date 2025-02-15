@@ -13,6 +13,7 @@ WITH source AS (
         
           -- Extract item_code from JSON
     FROM {{ ref('stg_payment_entry') }} 
+    WHERE name IS NOT NULL
 )
 
 SELECT  * FROM source

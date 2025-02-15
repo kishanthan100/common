@@ -1,15 +1,25 @@
-{{ config(schema='silver') }}
+{{ config(
+    schema='silver',
+    materialized='table'
+) }}
 
 WITH source AS (
     SELECT 
-    
-    name, owner, creation, modified, modified_by, docstatus, 
-    customer_name, customer_type, customer_group, customer_primary_address, 
-    primary_address, default_commission_rate
+        name AS customer_id,  -- Set as primary key
+        owner,
+        creation,
+        modified,
+        modified_by,
+        docstatus,
+        customer_name,
+        customer_type,
+        customer_group,
+        customer_primary_address,
+        primary_address,
+        default_commission_rate
         
-        
-          -- Extract item_code from JSON
     FROM {{ ref('stg_customer_details') }} 
+    WHERE name IS NOT NULL  -- Ensure no null values in primary key
 )
 
-SELECT  * FROM source
+SELECT DISTINCT * FROM source
