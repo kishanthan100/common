@@ -53,6 +53,8 @@
         "in_words": "EUR Thirty One Thousand, Four Hundred And Sixty only.",
         "title": "Grant Plastics Ltd.",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "1ga85vdvgn",
@@ -76,9 +78,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2024-00019",
@@ -134,7 +134,6 @@
         "title": "Summit Traders Ltd.",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "kohg4rmbff",
@@ -158,7 +157,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2024-00020",
@@ -215,6 +215,8 @@
         "in_words": "EUR Thirty Six and Thirty Cent only.",
         "title": "SPICELANDS GmbH",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "kscp88uamu",
@@ -238,9 +240,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2024-00021",
@@ -296,7 +296,6 @@
         "title": "Grant Plastics Ltd.",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "kvq6p123f8",
@@ -320,7 +319,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2024-00022",
@@ -373,9 +373,9 @@
         "custom_remarks": 0,
         "is_opening": "No",
         "doctype": "Payment Entry",
-        "references": [],
+        "taxes": [],
         "deductions": [],
-        "taxes": []
+        "references": []
     },
     {
         "name": "ACC-PAY-2024-00023",
@@ -432,7 +432,6 @@
         "title": "Zuckerman Security Ltd.",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "24f8is7qbq",
@@ -455,7 +454,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2024-00024",
@@ -511,9 +511,9 @@
         "in_words": "EUR Eighty Thousand only.",
         "title": "Zuckerman Security Ltd.",
         "doctype": "Payment Entry",
-        "references": [],
+        "taxes": [],
         "deductions": [],
-        "taxes": []
+        "references": []
     },
     {
         "name": "ACC-PAY-2024-00025",
@@ -569,7 +569,6 @@
         "title": "dis",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "s4dmk2ucgf",
@@ -593,7 +592,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2024-00026",
@@ -648,9 +648,9 @@
         "in_words": "EUR Eighty Seven Thousand, Seven Hundred And Twenty Five only.",
         "title": "Zuckerman Security Ltd.",
         "doctype": "Payment Entry",
-        "references": [],
+        "taxes": [],
         "deductions": [],
-        "taxes": []
+        "references": []
     },
     {
         "name": "ACC-PAY-2024-00027",
@@ -706,8 +706,8 @@
         "title": "suppu1",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
-        "references": []
+        "references": [],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2024-00028",
@@ -764,6 +764,8 @@
         "in_words": "EUR Nine Thousand And Ninety only.",
         "title": "Ken Kaneki",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "0ag0372846",
@@ -787,9 +789,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2024-00029",
@@ -845,7 +845,6 @@
         "title": "Grant Plastics Ltd.",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "t1rpjqq7f6",
@@ -869,7 +868,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2024-00030",
@@ -926,6 +926,8 @@
         "in_words": "EUR Six Hundred only.",
         "title": "AHMAD MUHTAR",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "t953fj10h4",
@@ -949,9 +951,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2024-00031",
@@ -1007,7 +1007,6 @@
         "title": "Grant Plastics Ltd.",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "tb19r77fko",
@@ -1031,7 +1030,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2024-00032",
@@ -1088,6 +1088,8 @@
         "in_words": "EUR One Hundred And Ninety only.",
         "title": "Customer Customer",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "blsqssgarv",
@@ -1111,9 +1113,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2024-00033",
@@ -1170,7 +1170,6 @@
         "title": "Local Mandi  Private Ltd.",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "dlqo0une3m",
@@ -1194,7 +1193,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2024-00034",
@@ -1250,9 +1250,9 @@
         "in_words": "EUR Forty Seven and Nineteen Cent only.",
         "title": "Local Mandi  Private Ltd.",
         "doctype": "Payment Entry",
-        "references": [],
+        "taxes": [],
         "deductions": [],
-        "taxes": []
+        "references": []
     },
     {
         "name": "ACC-PAY-2024-00035",
@@ -1309,7 +1309,6 @@
         "title": "ABC private LTD",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "4ratenult9",
@@ -1333,7 +1332,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2024-00037",
@@ -1389,6 +1389,8 @@
         "in_words": "EUR One Thousand, Nine Hundred And Ninety Six and Fifty Cent only.",
         "title": "Local Mandi  Private Ltd.",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "52v3lqso9d",
@@ -1412,9 +1414,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2024-00038",
@@ -1470,7 +1470,6 @@
         "title": "Manoj",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "3maqknca7t",
@@ -1493,7 +1492,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2024-00039",
@@ -1548,6 +1548,8 @@
         "in_words": "EUR One Hundred And Fifteen and Sixty Cent only.",
         "title": "Loway Supermart",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "3v6tns589d",
@@ -1570,9 +1572,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2025-00001",
@@ -1630,7 +1630,6 @@
         "title": "Local Mandi  Private Ltd.",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "rp8mmva5lh",
@@ -1654,7 +1653,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2025-00002",
@@ -1713,9 +1713,9 @@
         "in_words": "EUR Ninety Eight only.",
         "title": "Abhishek Kumar",
         "doctype": "Payment Entry",
-        "references": [],
+        "taxes": [],
         "deductions": [],
-        "taxes": []
+        "references": []
     },
     {
         "name": "ACC-PAY-2025-00003",
@@ -1773,7 +1773,6 @@
         "title": "ABC private LTD",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "scifumc78o",
@@ -1797,7 +1796,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2025-00004",
@@ -1853,6 +1853,8 @@
         "in_words": "EUR Six Thousand, Three Hundred And Five only.",
         "title": "test3",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "qr280g3mkf",
@@ -1876,9 +1878,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2025-00007",
@@ -1936,7 +1936,6 @@
         "title": "Abhishek Kumar",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "0c4h0v0on0",
@@ -1960,7 +1959,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2025-00008",
@@ -2017,6 +2017,8 @@
         "in_words": "EUR Nineteen only.",
         "title": "Abhishek Kumar",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "0i7fs4vkbu",
@@ -2040,9 +2042,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2025-00009",
@@ -2100,7 +2100,6 @@
         "title": "Abhishek Kumar",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "0j62tc0s7q",
@@ -2124,7 +2123,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2025-00010",
@@ -2181,6 +2181,8 @@
         "in_words": "EUR Two only.",
         "title": "test1",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "j8gqb60526",
@@ -2204,9 +2206,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2025-00011",
@@ -2264,7 +2264,6 @@
         "title": "test1",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "jb3vfjpo3a",
@@ -2288,7 +2287,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2025-00012",
@@ -2345,6 +2345,8 @@
         "in_words": "EUR One only.",
         "title": "test1",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "jbv2n77hj5",
@@ -2368,9 +2370,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2025-00013",
@@ -2428,7 +2428,6 @@
         "title": "test101",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "ogbl0v9c3g",
@@ -2452,7 +2451,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2025-00014",
@@ -2509,6 +2509,8 @@
         "in_words": "EUR One only.",
         "title": "test101",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "om36ippt17",
@@ -2532,9 +2534,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2025-00015",
@@ -2591,7 +2591,6 @@
         "title": "ABC private LTD",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "h76rcg2mb9",
@@ -2615,7 +2614,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2025-00016",
@@ -2674,6 +2674,8 @@
         "in_words": "EUR Thirty One only.",
         "title": "Abhishek Kumar",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "to8u3tntlp",
@@ -2697,9 +2699,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2025-00017",
@@ -2757,7 +2757,6 @@
         "title": "test101",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "tkbf9dgomf",
@@ -2781,7 +2780,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2025-00018",
@@ -2838,6 +2838,8 @@
         "in_words": "EUR One Hundred only.",
         "title": "Local Mandi  Private Ltd.",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "n3rkp07dvr",
@@ -2861,9 +2863,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2025-00019",
@@ -2923,7 +2923,6 @@
         "title": "Abhishek Kumar",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "natlr3jn1f",
@@ -2947,7 +2946,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2025-00020",
@@ -3004,6 +3004,8 @@
         "in_words": "EUR One Hundred only.",
         "title": "Local Mandi  Private Ltd.",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "ncpsgtub19",
@@ -3027,9 +3029,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2025-00021",
@@ -3087,7 +3087,6 @@
         "title": "Abhishek Kumar",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "o1q45fsk6o",
@@ -3111,7 +3110,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2025-00022",
@@ -3168,6 +3168,8 @@
         "in_words": "EUR Two Hundred only.",
         "title": "Abhishek Kumar",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "o4ualm8952",
@@ -3191,9 +3193,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2025-00023",
@@ -3251,7 +3251,6 @@
         "title": "Abhishek Kumar",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "og2j8f63q9",
@@ -3275,7 +3274,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2025-00024",
@@ -3332,6 +3332,8 @@
         "in_words": "EUR Two Hundred only.",
         "title": "Abhishek Kumar",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "otf7blbp5v",
@@ -3355,9 +3357,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2025-00025",
@@ -3415,7 +3415,6 @@
         "title": "Abhishek Kumar",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "p1hlpd99al",
@@ -3439,7 +3438,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2025-00026",
@@ -3496,6 +3496,8 @@
         "in_words": "EUR Two Hundred only.",
         "title": "Abhishek Kumar",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "p53ptgtvgg",
@@ -3519,9 +3521,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2025-00027",
@@ -3579,7 +3579,6 @@
         "title": "Abhishek Kumar",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "c4gsjhr251",
@@ -3603,7 +3602,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2025-00028",
@@ -3660,6 +3660,8 @@
         "in_words": "EUR Twenty only.",
         "title": "tes1",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "c4i3d345qt",
@@ -3683,9 +3685,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2025-00029",
@@ -3743,7 +3743,6 @@
         "title": "test101",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "4q18udk66n",
@@ -3767,7 +3766,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2025-00030",
@@ -3824,6 +3824,7 @@
         "in_words": "EUR Seventy Four only.",
         "title": "Abhishek Kumar",
         "doctype": "Payment Entry",
+        "deductions": [],
         "references": [
             {
                 "name": "4nlc0og7pj",
@@ -3848,7 +3849,6 @@
                 "doctype": "Payment Entry Reference"
             }
         ],
-        "deductions": [],
         "taxes": []
     },
     {
@@ -3907,7 +3907,6 @@
         "title": "Abhishek Kumar",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "4q1s9v03tb",
@@ -3931,7 +3930,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2025-00032",
@@ -3988,6 +3988,8 @@
         "in_words": "EUR Twenty Three only.",
         "title": "Abhishek Kumar",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "4t14r9vli1",
@@ -4011,9 +4013,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2025-00033",
@@ -4071,7 +4071,6 @@
         "title": "Abhishek Kumar",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "5759k71re8",
@@ -4095,7 +4094,8 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ]
+        ],
+        "taxes": []
     },
     {
         "name": "ACC-PAY-2025-00034",
@@ -4152,6 +4152,8 @@
         "in_words": "EUR Ten only.",
         "title": "Abhishek Kumar",
         "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
         "references": [
             {
                 "name": "5763tc0u5d",
@@ -4175,9 +4177,7 @@
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"
             }
-        ],
-        "deductions": [],
-        "taxes": []
+        ]
     },
     {
         "name": "ACC-PAY-2025-00035",
@@ -4235,7 +4235,6 @@
         "title": "ABC private LTD",
         "doctype": "Payment Entry",
         "deductions": [],
-        "taxes": [],
         "references": [
             {
                 "name": "n96sgjje9m",
@@ -4255,6 +4254,581 @@
                 "exchange_gain_loss": 0.0,
                 "account": "Debtors - FC",
                 "parent": "ACC-PAY-2025-00035",
+                "parentfield": "references",
+                "parenttype": "Payment Entry",
+                "doctype": "Payment Entry Reference"
+            }
+        ],
+        "taxes": []
+    },
+    {
+        "name": "ACC-PAY-2025-00036",
+        "owner": "saurav.kumar@sukan.eu",
+        "creation": "2025-02-10 10:23:16.176847",
+        "modified": "2025-02-10 10:23:16.803242",
+        "modified_by": "saurav.kumar@sukan.eu",
+        "docstatus": 1,
+        "idx": 3,
+        "naming_series": "ACC-PAY-.YYYY.-",
+        "payment_type": "Receive",
+        "payment_order_status": "Initiated",
+        "posting_date": "2025-02-10",
+        "company": "Fanta Co.",
+        "mode_of_payment": "Cash",
+        "party_type": "Customer",
+        "party": "Jathi",
+        "party_name": "Jathi",
+        "book_advance_payments_in_separate_party_account": 0,
+        "reconcile_on_advance_payment_date": 0,
+        "party_balance": 19148325.0,
+        "paid_from": "Debtors - FC",
+        "paid_from_account_type": "Receivable",
+        "paid_from_account_currency": "EUR",
+        "paid_from_account_balance": 19148325.0,
+        "paid_to": "Cash - FC",
+        "paid_to_account_type": "Cash",
+        "paid_to_account_currency": "EUR",
+        "paid_to_account_balance": 0.0,
+        "paid_amount": 148250.0,
+        "paid_amount_after_tax": 148250.0,
+        "source_exchange_rate": 1.0,
+        "base_paid_amount": 148250.0,
+        "base_paid_amount_after_tax": 148250.0,
+        "received_amount": 148250.0,
+        "received_amount_after_tax": 148250.0,
+        "target_exchange_rate": 1.0,
+        "base_received_amount": 148250.0,
+        "base_received_amount_after_tax": 148250.0,
+        "total_allocated_amount": 148250.0,
+        "base_total_allocated_amount": 148250.0,
+        "unallocated_amount": 0.0,
+        "difference_amount": 0.0,
+        "apply_tax_withholding_amount": 0,
+        "base_total_taxes_and_charges": 0.0,
+        "total_taxes_and_charges": 0.0,
+        "reference_no": "202400044",
+        "status": "Submitted",
+        "custom_remarks": 0,
+        "remarks": "Amount EUR 148250.0 received from Jathi\nTransaction reference no 202400044 dated None\nAmount EUR 148250.0 against Sales Invoice ACC-SINV-2024-00029",
+        "base_in_words": "EUR One Hundred And Forty Eight Thousand, Two Hundred And Fifty only.",
+        "is_opening": "No",
+        "letter_head": "sukanfood-letter-head",
+        "in_words": "EUR One Hundred And Forty Eight Thousand, Two Hundred And Fifty only.",
+        "title": "Jathi",
+        "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
+        "references": [
+            {
+                "name": "3dpadlcark",
+                "owner": "saurav.kumar@sukan.eu",
+                "creation": "2025-02-10 10:23:16.176847",
+                "modified": "2025-02-10 10:23:17.102272",
+                "modified_by": "saurav.kumar@sukan.eu",
+                "docstatus": 1,
+                "idx": 1,
+                "reference_doctype": "Sales Invoice",
+                "reference_name": "ACC-SINV-2024-00029",
+                "due_date": "2024-09-24",
+                "total_amount": 19148250.0,
+                "outstanding_amount": 19000000.0,
+                "allocated_amount": 148250.0,
+                "exchange_rate": 1.0,
+                "exchange_gain_loss": 0.0,
+                "account": "Debtors - FC",
+                "parent": "ACC-PAY-2025-00036",
+                "parentfield": "references",
+                "parenttype": "Payment Entry",
+                "doctype": "Payment Entry Reference"
+            }
+        ]
+    },
+    {
+        "name": "ACC-PAY-2025-00037",
+        "owner": "saurav.kumar@sukan.eu",
+        "creation": "2025-02-10 15:29:16.491725",
+        "modified": "2025-02-10 15:29:17.080977",
+        "modified_by": "saurav.kumar@sukan.eu",
+        "docstatus": 1,
+        "idx": 3,
+        "naming_series": "ACC-PAY-.YYYY.-",
+        "payment_type": "Receive",
+        "payment_order_status": "Initiated",
+        "posting_date": "2025-02-10",
+        "company": "Fanta Co.",
+        "mode_of_payment": "Cash",
+        "party_type": "Customer",
+        "party": "Abhishek Kumar",
+        "party_name": "Abhishek Kumar",
+        "book_advance_payments_in_separate_party_account": 0,
+        "reconcile_on_advance_payment_date": 0,
+        "party_balance": 103949.0,
+        "paid_from": "Debtors - FC",
+        "paid_from_account_type": "Receivable",
+        "paid_from_account_currency": "EUR",
+        "paid_from_account_balance": 103949.0,
+        "paid_to": "Cash - FC",
+        "paid_to_account_type": "Cash",
+        "paid_to_account_currency": "EUR",
+        "paid_to_account_balance": 0.0,
+        "paid_amount": 2000.0,
+        "paid_amount_after_tax": 2000.0,
+        "source_exchange_rate": 1.0,
+        "base_paid_amount": 2000.0,
+        "base_paid_amount_after_tax": 2000.0,
+        "received_amount": 2000.0,
+        "received_amount_after_tax": 2000.0,
+        "target_exchange_rate": 1.0,
+        "base_received_amount": 2000.0,
+        "base_received_amount_after_tax": 2000.0,
+        "total_allocated_amount": 2000.0,
+        "base_total_allocated_amount": 2000.0,
+        "unallocated_amount": 0.0,
+        "difference_amount": 0.0,
+        "apply_tax_withholding_amount": 0,
+        "base_total_taxes_and_charges": 0.0,
+        "total_taxes_and_charges": 0.0,
+        "reference_no": "202400051",
+        "status": "Submitted",
+        "custom_remarks": 0,
+        "remarks": "Amount EUR 2000.0 received from Abhishek Kumar\nTransaction reference no 202400051 dated None\nAmount EUR 2000.0 against Sales Invoice ACC-SINV-2024-00027",
+        "base_in_words": "EUR Two Thousand only.",
+        "is_opening": "No",
+        "letter_head": "sukanfood-letter-head",
+        "in_words": "EUR Two Thousand only.",
+        "title": "Abhishek Kumar",
+        "doctype": "Payment Entry",
+        "deductions": [],
+        "references": [
+            {
+                "name": "912tjgtier",
+                "owner": "saurav.kumar@sukan.eu",
+                "creation": "2025-02-10 15:29:16.491725",
+                "modified": "2025-02-10 15:29:17.347076",
+                "modified_by": "saurav.kumar@sukan.eu",
+                "docstatus": 1,
+                "idx": 1,
+                "reference_doctype": "Sales Invoice",
+                "reference_name": "ACC-SINV-2024-00027",
+                "due_date": "2024-09-23",
+                "total_amount": 4000.0,
+                "outstanding_amount": 2000.0,
+                "allocated_amount": 2000.0,
+                "exchange_rate": 1.0,
+                "exchange_gain_loss": 0.0,
+                "account": "Debtors - FC",
+                "parent": "ACC-PAY-2025-00037",
+                "parentfield": "references",
+                "parenttype": "Payment Entry",
+                "doctype": "Payment Entry Reference"
+            }
+        ],
+        "taxes": []
+    },
+    {
+        "name": "ACC-PAY-2025-00038",
+        "owner": "saurav.kumar@sukan.eu",
+        "creation": "2025-02-10 15:43:13.894616",
+        "modified": "2025-02-10 15:43:14.467883",
+        "modified_by": "saurav.kumar@sukan.eu",
+        "docstatus": 1,
+        "idx": 3,
+        "naming_series": "ACC-PAY-.YYYY.-",
+        "payment_type": "Receive",
+        "payment_order_status": "Initiated",
+        "posting_date": "2025-02-10",
+        "company": "Fanta Co.",
+        "mode_of_payment": "Cash",
+        "party_type": "Customer",
+        "party": "Abhishek Kumar",
+        "party_name": "Abhishek Kumar",
+        "book_advance_payments_in_separate_party_account": 0,
+        "reconcile_on_advance_payment_date": 0,
+        "party_balance": 101949.0,
+        "paid_from": "Debtors - FC",
+        "paid_from_account_type": "Receivable",
+        "paid_from_account_currency": "EUR",
+        "paid_from_account_balance": 101949.0,
+        "paid_to": "Cash - FC",
+        "paid_to_account_type": "Cash",
+        "paid_to_account_currency": "EUR",
+        "paid_to_account_balance": 0.0,
+        "paid_amount": 1000.0,
+        "paid_amount_after_tax": 1000.0,
+        "source_exchange_rate": 1.0,
+        "base_paid_amount": 1000.0,
+        "base_paid_amount_after_tax": 1000.0,
+        "received_amount": 1000.0,
+        "received_amount_after_tax": 1000.0,
+        "target_exchange_rate": 1.0,
+        "base_received_amount": 1000.0,
+        "base_received_amount_after_tax": 1000.0,
+        "total_allocated_amount": 1000.0,
+        "base_total_allocated_amount": 1000.0,
+        "unallocated_amount": 0.0,
+        "difference_amount": 0.0,
+        "apply_tax_withholding_amount": 0,
+        "base_total_taxes_and_charges": 0.0,
+        "total_taxes_and_charges": 0.0,
+        "reference_no": "202400051",
+        "status": "Submitted",
+        "custom_remarks": 0,
+        "remarks": "Amount EUR 1000.0 received from Abhishek Kumar\nTransaction reference no 202400051 dated None\nAmount EUR 1000.0 against Sales Invoice ACC-SINV-2024-00027",
+        "base_in_words": "EUR One Thousand only.",
+        "is_opening": "No",
+        "letter_head": "sukanfood-letter-head",
+        "in_words": "EUR One Thousand only.",
+        "title": "Abhishek Kumar",
+        "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
+        "references": [
+            {
+                "name": "998j78jgg3",
+                "owner": "saurav.kumar@sukan.eu",
+                "creation": "2025-02-10 15:43:13.894616",
+                "modified": "2025-02-10 15:43:14.728864",
+                "modified_by": "saurav.kumar@sukan.eu",
+                "docstatus": 1,
+                "idx": 1,
+                "reference_doctype": "Sales Invoice",
+                "reference_name": "ACC-SINV-2024-00027",
+                "due_date": "2024-09-23",
+                "total_amount": 4000.0,
+                "outstanding_amount": 1000.0,
+                "allocated_amount": 1000.0,
+                "exchange_rate": 1.0,
+                "exchange_gain_loss": 0.0,
+                "account": "Debtors - FC",
+                "parent": "ACC-PAY-2025-00038",
+                "parentfield": "references",
+                "parenttype": "Payment Entry",
+                "doctype": "Payment Entry Reference"
+            }
+        ]
+    },
+    {
+        "name": "ACC-PAY-2025-00039",
+        "owner": "saurav.kumar@sukan.eu",
+        "creation": "2025-02-11 14:54:30.320482",
+        "modified": "2025-02-11 14:54:30.933494",
+        "modified_by": "saurav.kumar@sukan.eu",
+        "docstatus": 1,
+        "idx": 3,
+        "naming_series": "ACC-PAY-.YYYY.-",
+        "payment_type": "Receive",
+        "payment_order_status": "Initiated",
+        "posting_date": "2025-02-11",
+        "company": "Fanta Co.",
+        "mode_of_payment": "Cash",
+        "party_type": "Customer",
+        "party": "Adarsh Kumar",
+        "party_name": "Adarsh Kumar",
+        "book_advance_payments_in_separate_party_account": 0,
+        "reconcile_on_advance_payment_date": 0,
+        "party_balance": 2254.86,
+        "paid_from": "Debtors - FC",
+        "paid_from_account_type": "Receivable",
+        "paid_from_account_currency": "EUR",
+        "paid_from_account_balance": 2254.86,
+        "paid_to": "Cash - FC",
+        "paid_to_account_type": "Cash",
+        "paid_to_account_currency": "EUR",
+        "paid_to_account_balance": 0.0,
+        "paid_amount": 815.0,
+        "paid_amount_after_tax": 815.0,
+        "source_exchange_rate": 1.0,
+        "base_paid_amount": 815.0,
+        "base_paid_amount_after_tax": 815.0,
+        "received_amount": 815.0,
+        "received_amount_after_tax": 815.0,
+        "target_exchange_rate": 1.0,
+        "base_received_amount": 815.0,
+        "base_received_amount_after_tax": 815.0,
+        "total_allocated_amount": 815.0,
+        "base_total_allocated_amount": 815.0,
+        "unallocated_amount": 0.0,
+        "difference_amount": 0.0,
+        "apply_tax_withholding_amount": 0,
+        "base_total_taxes_and_charges": 0.0,
+        "total_taxes_and_charges": 0.0,
+        "reference_no": "202500070",
+        "status": "Submitted",
+        "custom_remarks": 0,
+        "remarks": "Amount EUR 815.0 received from Adarsh Kumar\nTransaction reference no 202500070 dated None\nAmount EUR 815.0 against Sales Invoice ACC-SINV-2025-00027",
+        "base_in_words": "EUR Eight Hundred And Fifteen only.",
+        "is_opening": "No",
+        "letter_head": "sukanfood-letter-head",
+        "in_words": "EUR Eight Hundred And Fifteen only.",
+        "title": "Adarsh Kumar",
+        "doctype": "Payment Entry",
+        "deductions": [],
+        "references": [
+            {
+                "name": "2oev7klsm7",
+                "owner": "saurav.kumar@sukan.eu",
+                "creation": "2025-02-11 14:54:30.320482",
+                "modified": "2025-02-11 14:54:31.208742",
+                "modified_by": "saurav.kumar@sukan.eu",
+                "docstatus": 1,
+                "idx": 1,
+                "reference_doctype": "Sales Invoice",
+                "reference_name": "ACC-SINV-2025-00027",
+                "due_date": "2025-02-11",
+                "total_amount": 1815.0,
+                "outstanding_amount": 1000.0,
+                "allocated_amount": 815.0,
+                "exchange_rate": 1.0,
+                "exchange_gain_loss": 0.0,
+                "account": "Debtors - FC",
+                "parent": "ACC-PAY-2025-00039",
+                "parentfield": "references",
+                "parenttype": "Payment Entry",
+                "doctype": "Payment Entry Reference"
+            }
+        ],
+        "taxes": []
+    },
+    {
+        "name": "ACC-PAY-2025-00040",
+        "owner": "saurav.kumar@sukan.eu",
+        "creation": "2025-02-12 10:39:03.540536",
+        "modified": "2025-02-12 10:39:04.141517",
+        "modified_by": "saurav.kumar@sukan.eu",
+        "docstatus": 1,
+        "idx": 3,
+        "naming_series": "ACC-PAY-.YYYY.-",
+        "payment_type": "Receive",
+        "payment_order_status": "Initiated",
+        "posting_date": "2025-02-12",
+        "company": "Fanta Co.",
+        "mode_of_payment": "Cash",
+        "party_type": "Customer",
+        "party": "Adarsh Kumar",
+        "party_name": "Adarsh Kumar",
+        "book_advance_payments_in_separate_party_account": 0,
+        "reconcile_on_advance_payment_date": 0,
+        "party_balance": 1439.86,
+        "paid_from": "Debtors - FC",
+        "paid_from_account_type": "Receivable",
+        "paid_from_account_currency": "EUR",
+        "paid_from_account_balance": 1439.86,
+        "paid_to": "Cash - FC",
+        "paid_to_account_type": "Cash",
+        "paid_to_account_currency": "EUR",
+        "paid_to_account_balance": 0.0,
+        "paid_amount": 1000.0,
+        "paid_amount_after_tax": 1000.0,
+        "source_exchange_rate": 1.0,
+        "base_paid_amount": 1000.0,
+        "base_paid_amount_after_tax": 1000.0,
+        "received_amount": 1000.0,
+        "received_amount_after_tax": 1000.0,
+        "target_exchange_rate": 1.0,
+        "base_received_amount": 1000.0,
+        "base_received_amount_after_tax": 1000.0,
+        "total_allocated_amount": 1000.0,
+        "base_total_allocated_amount": 1000.0,
+        "unallocated_amount": 0.0,
+        "difference_amount": 0.0,
+        "apply_tax_withholding_amount": 0,
+        "base_total_taxes_and_charges": 0.0,
+        "total_taxes_and_charges": 0.0,
+        "reference_no": "202500070",
+        "status": "Submitted",
+        "custom_remarks": 0,
+        "remarks": "Amount EUR 1000.0 received from Adarsh Kumar\nTransaction reference no 202500070 dated None\nAmount EUR 1000.0 against Sales Invoice ACC-SINV-2025-00027",
+        "base_in_words": "EUR One Thousand only.",
+        "is_opening": "No",
+        "letter_head": "sukanfood-letter-head",
+        "in_words": "EUR One Thousand only.",
+        "title": "Adarsh Kumar",
+        "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
+        "references": [
+            {
+                "name": "oehb91o8qm",
+                "owner": "saurav.kumar@sukan.eu",
+                "creation": "2025-02-12 10:39:03.540536",
+                "modified": "2025-02-12 10:39:04.485136",
+                "modified_by": "saurav.kumar@sukan.eu",
+                "docstatus": 1,
+                "idx": 1,
+                "reference_doctype": "Sales Invoice",
+                "reference_name": "ACC-SINV-2025-00027",
+                "due_date": "2025-02-11",
+                "total_amount": 1815.0,
+                "outstanding_amount": 0.0,
+                "allocated_amount": 1000.0,
+                "exchange_rate": 1.0,
+                "exchange_gain_loss": 0.0,
+                "account": "Debtors - FC",
+                "parent": "ACC-PAY-2025-00040",
+                "parentfield": "references",
+                "parenttype": "Payment Entry",
+                "doctype": "Payment Entry Reference"
+            }
+        ]
+    },
+    {
+        "name": "ACC-PAY-2025-00041",
+        "owner": "saurav.kumar@sukan.eu",
+        "creation": "2025-02-13 13:38:27.393189",
+        "modified": "2025-02-13 13:38:28.017220",
+        "modified_by": "saurav.kumar@sukan.eu",
+        "docstatus": 1,
+        "idx": 3,
+        "naming_series": "ACC-PAY-.YYYY.-",
+        "payment_type": "Pay",
+        "payment_order_status": "Initiated",
+        "posting_date": "2025-02-13",
+        "company": "Fanta Co.",
+        "mode_of_payment": "Cash",
+        "party_type": "Customer",
+        "party": "Local Mandi  Private Ltd.",
+        "party_name": "Local Mandi  Private Ltd.",
+        "book_advance_payments_in_separate_party_account": 0,
+        "reconcile_on_advance_payment_date": 0,
+        "party_balance": 18018.42,
+        "paid_from": "Cash - FC",
+        "paid_from_account_type": "Cash",
+        "paid_from_account_currency": "EUR",
+        "paid_from_account_balance": 0.0,
+        "paid_to": "Debtors - FC",
+        "paid_to_account_type": "Receivable",
+        "paid_to_account_currency": "EUR",
+        "paid_to_account_balance": 18018.42,
+        "paid_amount": 278.3,
+        "paid_amount_after_tax": 278.3,
+        "source_exchange_rate": 1.0,
+        "base_paid_amount": 278.3,
+        "base_paid_amount_after_tax": 278.3,
+        "received_amount": 278.3,
+        "received_amount_after_tax": 278.3,
+        "target_exchange_rate": 1.0,
+        "base_received_amount": 278.3,
+        "base_received_amount_after_tax": 278.3,
+        "total_allocated_amount": 278.3,
+        "base_total_allocated_amount": 278.3,
+        "unallocated_amount": 0.0,
+        "difference_amount": 0.0,
+        "apply_tax_withholding_amount": 0,
+        "base_total_taxes_and_charges": 0.0,
+        "total_taxes_and_charges": 0.0,
+        "reference_no": "202400059",
+        "status": "Submitted",
+        "custom_remarks": 0,
+        "remarks": "Amount EUR 278.3 to Local Mandi  Private Ltd.\nTransaction reference no 202400059 dated None\nAmount EUR -278.3 against Sales Invoice ACC-SINV-2024-00036-1",
+        "base_in_words": "EUR Two Hundred And Seventy Eight and Thirty Cent only.",
+        "is_opening": "No",
+        "letter_head": "sukanfood-letter-head",
+        "in_words": "EUR Two Hundred And Seventy Eight and Thirty Cent only.",
+        "title": "Local Mandi  Private Ltd.",
+        "doctype": "Payment Entry",
+        "deductions": [],
+        "references": [
+            {
+                "name": "m3d23ad6rn",
+                "owner": "saurav.kumar@sukan.eu",
+                "creation": "2025-02-13 13:38:27.393189",
+                "modified": "2025-02-13 13:38:28.324475",
+                "modified_by": "saurav.kumar@sukan.eu",
+                "docstatus": 1,
+                "idx": 1,
+                "reference_doctype": "Sales Invoice",
+                "reference_name": "ACC-SINV-2024-00036-1",
+                "due_date": "2024-11-13",
+                "total_amount": -278.3,
+                "outstanding_amount": 0.0,
+                "allocated_amount": -278.3,
+                "exchange_rate": 1.0,
+                "exchange_gain_loss": 0.0,
+                "account": "Debtors - FC",
+                "parent": "ACC-PAY-2025-00041",
+                "parentfield": "references",
+                "parenttype": "Payment Entry",
+                "doctype": "Payment Entry Reference"
+            }
+        ],
+        "taxes": []
+    },
+    {
+        "name": "ACC-PAY-2025-00042",
+        "owner": "saurav.kumar@sukan.eu",
+        "creation": "2025-02-13 13:38:33.531080",
+        "modified": "2025-02-13 13:38:34.164527",
+        "modified_by": "saurav.kumar@sukan.eu",
+        "docstatus": 1,
+        "idx": 3,
+        "naming_series": "ACC-PAY-.YYYY.-",
+        "payment_type": "Receive",
+        "payment_order_status": "Initiated",
+        "posting_date": "2025-02-13",
+        "company": "Fanta Co.",
+        "mode_of_payment": "Cash",
+        "party_type": "Customer",
+        "party": "Saurav Kumar",
+        "party_name": "Saurav Kumar",
+        "book_advance_payments_in_separate_party_account": 0,
+        "reconcile_on_advance_payment_date": 0,
+        "party_balance": 701.8,
+        "paid_from": "Debtors - FC",
+        "paid_from_account_type": "Receivable",
+        "paid_from_account_currency": "EUR",
+        "paid_from_account_balance": 701.8,
+        "paid_to": "Cash - FC",
+        "paid_to_account_type": "Cash",
+        "paid_to_account_currency": "EUR",
+        "paid_to_account_balance": 0.0,
+        "paid_amount": 301.8,
+        "paid_amount_after_tax": 301.8,
+        "source_exchange_rate": 1.0,
+        "base_paid_amount": 301.8,
+        "base_paid_amount_after_tax": 301.8,
+        "received_amount": 301.8,
+        "received_amount_after_tax": 301.8,
+        "target_exchange_rate": 1.0,
+        "base_received_amount": 301.8,
+        "base_received_amount_after_tax": 301.8,
+        "total_allocated_amount": 301.8,
+        "base_total_allocated_amount": 301.8,
+        "unallocated_amount": 0.0,
+        "difference_amount": 0.0,
+        "apply_tax_withholding_amount": 0,
+        "base_total_taxes_and_charges": 0.0,
+        "total_taxes_and_charges": 0.0,
+        "reference_no": "202500074",
+        "status": "Submitted",
+        "custom_remarks": 0,
+        "remarks": "Amount EUR 301.8 received from Saurav Kumar\nTransaction reference no 202500074 dated None\nAmount EUR 301.8 against Sales Invoice ACC-SINV-2025-00028",
+        "base_in_words": "EUR Three Hundred And One and Eighty Cent only.",
+        "is_opening": "No",
+        "letter_head": "sukanfood-letter-head",
+        "in_words": "EUR Three Hundred And One and Eighty Cent only.",
+        "title": "Saurav Kumar",
+        "doctype": "Payment Entry",
+        "taxes": [],
+        "deductions": [],
+        "references": [
+            {
+                "name": "m3evod0m3d",
+                "owner": "saurav.kumar@sukan.eu",
+                "creation": "2025-02-13 13:38:33.531080",
+                "modified": "2025-02-13 13:38:34.427693",
+                "modified_by": "saurav.kumar@sukan.eu",
+                "docstatus": 1,
+                "idx": 1,
+                "reference_doctype": "Sales Invoice",
+                "reference_name": "ACC-SINV-2025-00028",
+                "due_date": "2025-02-12",
+                "total_amount": 701.8,
+                "outstanding_amount": 400.0,
+                "allocated_amount": 301.8,
+                "exchange_rate": 1.0,
+                "exchange_gain_loss": 0.0,
+                "account": "Debtors - FC",
+                "parent": "ACC-PAY-2025-00042",
                 "parentfield": "references",
                 "parenttype": "Payment Entry",
                 "doctype": "Payment Entry Reference"

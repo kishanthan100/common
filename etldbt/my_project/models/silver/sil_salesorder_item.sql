@@ -13,15 +13,15 @@ WITH source AS (
         json_extract(items, '$[*].price_list_rate') AS price_list_rate,
         json_extract(items, '$[*].transaction_date') AS transaction_date,
         json_extract(items, '$[*].description') AS description_of_item
-    FROM {{ ref('stg_sales_order') }} 
+    FROM {{ ref('stg_salesorder') }} 
     WHERE name IS NOT NULL
 )
 
 SELECT 
     it_sales_order_name AS it_sales_order_name,
     UNNEST(item_specific_name) AS item_specific_name,
-    UNNEST(item_code) AS item_code,
-    UNNEST(item_name) AS item_name,
+    REPLACE(CAST(UNNEST(item_code)AS VARCHAR),'"' , '') AS item_code,
+    REPLACE(CAST(UNNEST(item_name)AS VARCHAR),'"','' ) AS item_name,
     CAST(UNNEST(creation) AS TIMESTAMP) AS creation,
     CAST(UNNEST(delivery_date) AS DATE) AS delivery_date,
     CAST(UNNEST(quantity) AS INTEGER) AS quantity,

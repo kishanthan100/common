@@ -10,7 +10,7 @@ WITH source AS (
 
         
           -- Extract item_code from JSON
-    FROM {{ ref('stg_payment_entry') }} 
+    FROM {{ ref('stg_paymententry') }} 
 )
 
 SELECT 

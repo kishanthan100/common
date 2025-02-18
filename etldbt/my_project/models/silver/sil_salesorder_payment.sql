@@ -19,7 +19,7 @@ WITH source AS (
 
         
           -- Extract item_code from JSON
-    FROM {{ ref('stg_sales_order') }} 
+    FROM {{ ref('stg_salesorder') }} 
     WHERE name IS NOT NULL
 )
 
@@ -27,7 +27,7 @@ SELECT
     py_sales_order_name AS py_sales_order_name,
     UNNEST(payment_specific_name) AS payment_specific_name,
     UNNEST(owner) As owner,
-    UNNEST(due_date) AS due_date ,
+    REPLACE(UNNEST(due_date),'"','') AS due_date ,
     UNNEST(creation)AS creation ,
     UNNEST(modified) AS modified,
     UNNEST(discount) AS discount,

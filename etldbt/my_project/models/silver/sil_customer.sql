@@ -18,7 +18,7 @@ WITH source AS (
         primary_address,
         default_commission_rate
         
-    FROM {{ ref('stg_customer_details') }} 
+    FROM {{ ref('stg_customer') }} 
     WHERE name IS NOT NULL  -- Ensure no null values in primary key
 )
 

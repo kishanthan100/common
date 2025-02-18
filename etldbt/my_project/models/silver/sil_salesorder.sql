@@ -62,7 +62,7 @@ WITH source AS (
     commission_rate, 
     total_commission
                 
-    FROM {{ ref('stg_sales_order') }}  -- ref() will auto-resolve schema
+    FROM {{ ref('stg_salesorder') }}  -- ref() will auto-resolve schema
 )
 
 SELECT * FROM source
